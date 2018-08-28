@@ -13,6 +13,8 @@ module.exports = {
 	},
 	plugins: ['react', 'jsx-a11y', 'import'],
 	rules: {
+		"indent": ["error", "tab"],
+		"no-tabs": 0,
 		'no-use-before-define': 0,
 		'react/jsx-filename-extension': 0,
 		'react/prefer-stateless-function': 0,

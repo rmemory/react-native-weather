@@ -11,6 +11,7 @@ const images = {
 	Sleet: require('../assets/sleet.png'),
 	Snow: require('../assets/snow.png'),
 	Thunder: require('../assets/thunder.png'),
+	Panguitch: require('../assets/panguitch.jpg'),
 };
 
 export function getImage(weather){
